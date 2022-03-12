@@ -44,6 +44,7 @@ OUTPUT
   *****
  *******
 *********
+```
 
 file_name: pattern3.py
 
@@ -59,6 +60,7 @@ OUTPUT
   *****
    ***
     *
+```
 
 file_name: pattern4.py
 
@@ -77,3 +79,4 @@ OUTPUT
   *****
    ***
     *
+```
