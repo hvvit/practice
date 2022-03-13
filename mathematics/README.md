@@ -16,14 +16,15 @@ following are digits:
 7
 ```
 
-the normal approach taken was till the number was zero divide it by 10 and count iteration on every number.
+the normal approach taken was till the number was zero divide it by 10 and count iteration on every number.<br />
 
-the best case approach of O(1) is just use log to the base 10 from the maths.h and add 1 to it. and use floor to round it at the lowest roundoff.
+the best case approach of O(1) is just use log to the base 10 from the maths.h and add 1 to it. and use floor to round it at the lowest roundoff.<br />
 
-my solution filename: countdigits.cpp
-best solution: bestSolutioncountdigits.cpp
+my solution filename: countdigits.cpp<br />
+best solution: bestSolutioncountdigits.cpp<br />
 
 How do we arrive at the solution:
+```
 so let me assume that there will be like n digits in number num
 
 so we can also observe that the number will lie between 10^(n-1) and 10^n.
@@ -33,3 +34,4 @@ we apply the log base 10 in the above equation we get
 n-1 <= log10(n) < n
 and we get
 n <= log10 + 1 < n + 1
+```
