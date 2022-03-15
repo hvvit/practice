@@ -27,3 +27,14 @@ yes
 ```
 filename: example2.cpp
 command: g++ example2.cpp -o main.o
+
+## Example 3:
+
+Check if the number is palindrome or not
+```
+INPUT
+1234
+OUTPUT
+4321
+NO
+```
