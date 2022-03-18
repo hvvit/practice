@@ -38,4 +38,10 @@ n <= log10 + 1 < n + 1
 
 ## Example 2:
 
-### Find the sum of n natural numbers
+### Find factorial of number
+
+for example:
+```
+5
+120
+```
